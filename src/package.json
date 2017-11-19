@@ -1,0 +1,32 @@
+{
+  "name": "breeze-bridge-ngx-http-client",
+  "version": "1.0.0-beta.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Breeze/breeze.bridge.ngx.http.client"
+  },
+  "author": {
+    "name": "Marcel Good",
+    "email": "marcelg@ideablade.com"
+  },
+  "keywords": [
+    "breeze",
+    "angular",
+    "bridge"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Breeze/breeze.bridge.ngx.http.client/issues"
+  },
+  "main": "breeze-bridge-ngx-http-client.umd.js",
+  "module": "index.js",
+  "jsnext:main": "index.js",
+  "typings": "breeze-bridge-ngx-http-client.d.ts",
+  "peerDependencies": {
+    "@angular/core": ">= 4.3.0",
+    "@angular/common": ">= 4.3.0",
+    "rxjs": ">= 5.1.0",
+    "zone.js": ">= 0.8.4",
+    "breeze-client": ">= 1.6.3"
+  }
+}
