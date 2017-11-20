@@ -6,7 +6,7 @@ This is the updated bridge using the new HttpClient service and is recommended f
 
 # Change Log #
 
-### 1.0.0.beta.0 November 19, 2017 ###
+### 1.0.0.beta.0 TBD ###
 
 Initial beta release
 
