@@ -131,7 +131,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See "name" in https://rollupjs.org/#core-functionality
-      name: 'breeze-bridge-ngx-http-client',
+      name: 'breeze-bridge2-angular',
 
       // See "globals" in https://rollupjs.org/#core-functionality
       globals: {
@@ -139,7 +139,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('breeze-bridge-ngx-http-client.umd.js'))
+    .pipe(rename('breeze-bridge2-angular.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

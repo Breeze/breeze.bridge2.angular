@@ -21,9 +21,9 @@ Initial beta release
 
 	`npm install breeze-client --save`
 
-2. Install breeze-bridge-ngx-http-client
+2. Install breeze-bridge2-angular
 
-	`npm install breeze-bridge-ngx-http-client --save`
+	`npm install breeze-bridge2-angular --save`
 
 # Usage #
 
@@ -34,7 +34,7 @@ To use the bridge in your own application, the following steps are required.
 Import `BreezeBridgeHttpClientModule` and `HttpClientModule` and add it to the app module's imports.
 
 ```
-import { BreezeBridgeHttpClientModule } from 'breeze-bridge-ngx-http-client';
+import { BreezeBridgeHttpClientModule } from 'breeze-bridge2-angular';
 import { HttpClientModule } from '@angular/common/http';
 ```
 

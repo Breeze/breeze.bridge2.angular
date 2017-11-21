@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "breeze-bridge-ngx-http-client.js",
-    "flatModuleId": "breeze-bridge-ngx-http-client"
+    "flatModuleOutFile": "breeze-bridge2-angular.js",
+    "flatModuleId": "breeze-bridge2-angular"
   },
   "files": [
     "./index.ts"

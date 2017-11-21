@@ -1,2 +1,3 @@
 export * from './common';
-export * from './breeze-bridge-http-client';
+export * from './module';
+export * from './ajax-http-client-adapter';

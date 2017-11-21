@@ -1,11 +1,11 @@
 {
-  "name": "breeze-bridge-ngx-http-client",
+  "name": "breeze-bridge2-angular",
   "version": "1.0.0-beta.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n breeze-bridge-ngx-http-client -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n breeze-bridge2-angular -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Breeze/breeze.bridge.ngx.http.client"
+    "url": "https://github.com/Breeze/breeze.bridge2.angular"
   },
   "author": {
     "name": "Marcel Good",
@@ -29,7 +29,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Breeze/breeze.bridge.ngx.http.client/issues"
+    "url": "https://github.com/Breeze/breeze.bridge2.angular/issues"
   },
   "devDependencies": {
     "@angular/common": "^4.3.0",
