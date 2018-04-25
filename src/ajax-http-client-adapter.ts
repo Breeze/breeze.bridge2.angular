@@ -1,7 +1,6 @@
 import { HttpClient, HttpHeaders, HttpRequest, HttpEvent, HttpResponse, HttpErrorResponse } from "@angular/common/http";
 import { core, HttpResponse as BreezeHttpResponse } from "breeze-client";
-import { filter } from "rxjs/operators/filter";
-import { map } from "rxjs/operators/map";
+import { filter,  map } from "rxjs/operators";
 
 import { DsaConfig } from "./common";
 
