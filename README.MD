@@ -6,6 +6,10 @@ This is the updated bridge using the new HttpClient service and is recommended f
 
 # Change Log #
 
+### 1.1.0 May 11, 2018 ###
+
+Support for rxjs 6 (backwards compatible with rxjs 5.5 and higher)
+
 ### 1.0.0 March 10, 2018 ###
 
 Dropped beta label
