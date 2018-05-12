@@ -1,7 +1,6 @@
 import { HttpClient, HttpHeaders, HttpRequest, HttpEvent, HttpResponse, HttpErrorResponse } from "@angular/common/http";
 import { core, HttpResponse as BreezeHttpResponse } from "breeze-client";
-import { filter } from "rxjs/operators/filter";
-import { map } from "rxjs/operators/map";
+import { last, map } from "rxjs/operators";
 
 import { DsaConfig } from "./common";
 
@@ -68,12 +67,10 @@ export class AjaxHttpClientAdapter {
         }
 
         if (requestInfo.request) { // exists unless requestInterceptor killed it.
-            const ffilter = filter((response: HttpEvent<any>) => response instanceof HttpResponse);
-            const fmap = map(extractData);
-
-            fmap(ffilter(this.http.request(requestInfo.request)))
-                .forEach(requestInfo.success)
-                .catch(requestInfo.error);
+            this.http.request(requestInfo.request).pipe(
+                last(),
+                map(extractData),
+            ).subscribe(requestInfo.success, requestInfo.error);
         }
 
         function extractData(response: HttpResponse<any>) {
